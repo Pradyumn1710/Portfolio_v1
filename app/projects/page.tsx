@@ -99,7 +99,7 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-semibold text-zinc-300">Featured</h3>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
               {featuredProjects.map((project) => (
-                <Card key={project.slug} className="flex flex-col">
+                <Card key={project.slug} >
                   <Link href={`/projects/${project.slug}`}>
                     <article className="relative w-full p-4 md:p-8 flex flex-col">
                       <div className="flex items-center justify-between gap-2">
@@ -153,7 +153,7 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-semibold text-zinc-300">Common</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {commonProjects.map((project) => (
-                <Card key={project.slug} className="flex flex-col">
+                <Card key={project.slug} >
                   <Link href={`/projects/${project.slug}`}>
                     <article className="p-4 md:p-8 flex flex-col">
                       <div className="flex justify-between gap-2 items-center">

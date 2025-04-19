@@ -44,7 +44,7 @@ export default function ExperiencePage() {
         {experienceProjects.length > 0 && (
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
             {experienceProjects.map((project) => (
-              <Card key={project.slug} className="flex flex-col">
+              <Card key={project.slug}>
                 <article className="relative w-full p-4 md:p-8 flex flex-col group">
                   <Link href={`/projects/${project.slug}`}>
                     <h2 className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display hover:underline">

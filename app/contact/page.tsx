@@ -36,7 +36,7 @@ export default function ContactPage() {
           {/* Contact Cards */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3 w-full max-w-4xl">
             {/* Email Card */}
-            <Card className="flex flex-col">
+            <Card>
               <div className="relative w-full p-4 md:p-8 h-full flex flex-col items-center justify-center group">
                 <div className="w-16 h-16 rounded-full bg-zinc-800 flex items-center justify-center mb-4 group-hover:bg-zinc-700 transition-colors duration-200">
                   <Mail className="w-8 h-8 text-zinc-200" />
@@ -51,7 +51,7 @@ export default function ContactPage() {
             </Card>
 
             {/* Phone Card */}
-            <Card className="flex flex-col">
+            <Card >
               <div className="relative w-full p-4 md:p-8 h-full flex flex-col items-center justify-center group">
                 <div className="w-16 h-16 rounded-full bg-zinc-800 flex items-center justify-center mb-4 group-hover:bg-zinc-700 transition-colors duration-200">
                   <Phone className="w-8 h-8 text-zinc-200" />
@@ -66,7 +66,7 @@ export default function ContactPage() {
             </Card>
 
             {/* GitHub Card */}
-            <Card className="flex flex-col">
+            <Card>
               <div className="relative w-full p-4 md:p-8 h-full flex flex-col items-center justify-center group">
                 <div className="w-16 h-16 rounded-full bg-zinc-800 flex items-center justify-center mb-4 group-hover:bg-zinc-700 transition-colors duration-200">
                   <Github className="w-8 h-8 text-zinc-200" />
