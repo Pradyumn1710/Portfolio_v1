@@ -7,7 +7,7 @@ import { Eye } from "lucide-react";
 // Featured Projects
 const featuredProjects = [
   {
-    slug: "lu-factorization",
+    slug: "lu_factorization",
     title: "LU Factorization",
     description:
       "A CUDA and C-based implementation of LU decomposition for efficient matrix factorization, optimized for parallel processing.",
@@ -16,7 +16,7 @@ const featuredProjects = [
     type: "featured",
   },
   {
-    slug: "second-brain",
+    slug: "second_brain",
     title: "Second Brain",
     description:
       "A TypeScript-based backend project designed to manage and organize personal knowledge using the Zettelkasten method.",
@@ -99,8 +99,8 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-semibold text-zinc-300">Featured</h3>
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
               {featuredProjects.map((project) => (
-                <Card key={project.slug} >
-                  <Link href={`/projects/${project.slug}`}>
+                <Link key={project.slug} href={`/projects/${project.slug}`}>
+                  <Card>
                     <article className="relative w-full p-4 md:p-8 flex flex-col">
                       <div className="flex items-center justify-between gap-2">
                         <div className="text-xs text-zinc-100">
@@ -138,8 +138,8 @@ export default function ProjectsPage() {
                         </a>
                       </div>
                     </article>
-                  </Link>
-                </Card>
+                  </Card>
+                </Link>
               ))}
             </div>
           </>
@@ -153,8 +153,8 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-semibold text-zinc-300">Common</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {commonProjects.map((project) => (
-                <Card key={project.slug} >
-                  <Link href={`/projects/${project.slug}`}>
+                <Link key={project.slug} href={`/projects/${project.slug}`}>
+                  <Card>
                     <article className="p-4 md:p-8 flex flex-col">
                       <div className="flex justify-between gap-2 items-center">
                         <span className="text-xs text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
@@ -191,8 +191,8 @@ export default function ProjectsPage() {
                         </a>
                       </div>
                     </article>
-                  </Link>
-                </Card>
+                  </Card>
+                </Link>
               ))}
             </div>
           </>
