@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div className="flex flex-col items-center justify-center w-full mt-12">
           {/* Download CV Button with fluorescent ivory white gradient */}
           <Link
-            href="/path-to-your-cv.pdf"
+            href="/https://drive.google.com/file/d/1klNjNBA78hGgBR7vEKfm48HDZpeNUXQR/view?usp=sharing"
             target="_blank"
             className="group relative inline-flex items-center justify-center px-8 py-4 mb-16 overflow-hidden font-medium transition duration-300 ease-out border-2 rounded-full shadow-md"
           >
@@ -44,7 +44,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold text-zinc-100 group-hover:text-white">Email</h3>
                 <p className="mt-2 text-center text-zinc-400 group-hover:text-zinc-300">
                   <a href="mailto:your.email@example.com" className="hover:underline">
-                    your.email@example.com
+                    pradyumn17.iiitn@gmail.com
                   </a>
                 </p>
               </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold text-zinc-100 group-hover:text-white">Phone</h3>
                 <p className="mt-2 text-center text-zinc-400 group-hover:text-zinc-300">
                   <a href="tel:+1234567890" className="hover:underline">
-                    +1 (234) 567-890
+                    (+91)80807-92138
                   </a>
                 </p>
               </div>
