@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div className="flex flex-col items-center justify-center w-full mt-12">
           {/* Download CV Button with fluorescent ivory white gradient */}
           <Link
-            href="/https://drive.google.com/file/d/1klNjNBA78hGgBR7vEKfm48HDZpeNUXQR/view?usp=sharing"
+            href="/Pradyumn_Resume.pdf"
             target="_blank"
             className="group relative inline-flex items-center justify-center px-8 py-4 mb-16 overflow-hidden font-medium transition duration-300 ease-out border-2 rounded-full shadow-md"
           >
